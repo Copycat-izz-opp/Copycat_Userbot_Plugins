@@ -1,12 +1,3 @@
-# for Deadly Bot
-# ONLY for DeadlyBot
-# EDITED BY - @SAMEER_795 (SAMEER)
-# KANGERS STAY AWAY
-# JISNE KANG KIYA USKI MA CHOD DI JAYEGI
-# BHADWE KANG MT KR LENA ...
-# TERI MA KI CHUT KANGER
-# CHL AGAR KANG HI KRNA HE TO CREDIT KE SATH KR
-
 import asyncio
 import random
 from telethon import events
@@ -15,7 +6,7 @@ from deadlybot.utils import admin_cmd, sudo_cmd
 from telethon.tl.types import ChannelParticipantsAdmins
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly Bot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat Bot"
 
 ludosudo = Config.SUDO_USERS
 
@@ -31,16 +22,16 @@ edit_time = 5
 file1 = Config.ALIVE_PIC
 """ =======================CONSTANTS====================== """
 
-pm_caption = "__                       **😎🔥 #ᗪᗴᗩᗪᒪY_Oᑎ_ᖴIᖇᗴ 😎🔥**  __\n\n"
+pm_caption = "__                       **😎🔥 #Copycat_Spam_Bot On Fire 😈🔥**  __\n\n"
 
 pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
 pm_caption += "✘ ᗩᗷOᑌT ᗰY ՏYՏTᗴᗰ ✘\n\n"
 pm_caption += "➠ TᗴᒪᗴTᕼOᑎ   ➣ 1.22.0\n"                 
-pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝐃𝐄𝐀𝐃𝐋𝐘](https://t.me/deadly_fighters)\n"
-pm_caption += "➠ ՏᑌᑭᑭOᖇT ᑕᕼᑎᑎᒪ ➣ [𝐉𝐎𝐈𝐍](https://t.me/DEADLY_TECHY)\n"
-pm_caption += "➠ ՏᑌᑭᑭOᖇT ᘜᖇᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/deadly_userbot)\n"
-pm_caption += "➠ ᑕᖇᗴᗩTOᖇ ➣ [⚡𝐒𝐀𝐌𝐄𝐄𝐑⚡](t.me/sameer_795)\n\n" 
-pm_caption += "[🔥ᗪᗴᑭᒪOY ᗪᗴᗩᗪᒪY ᗷOT🔥](https://github.com/SAMEERPANTHI/DEADLY-OP-BOT)"
+pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/Lovers_Match)\n"
+pm_caption += "➠ ՏᑌᑭᑭOᖇT ᑕᕼᑎᑎᒪ ➣ [𝐉𝐎𝐈𝐍](https://t.me/Copycat_Spam)\n"
+pm_caption += "➠ ՏᑌᑭᑭOᖇT ᘜᖇᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/Copycat_Spam_Bot)\n"
+pm_caption += "➠ ᑕᖇᗴᗩTOᖇ ➣ [😈Copycat😈](t.me/My_Love_Coming_Near)\n\n" 
+pm_caption += "[😈ᗪᗴᑭᒪOY ᑕOᑭYᑕᗩT Տᑭᗩᗰ ᗷOT😈](https://github.com/Copycat-izz-opp/CopyCat_Spam_Bot/blob/master/README.md)"
                                                      
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))

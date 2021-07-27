@@ -9,7 +9,7 @@ class Development(Config):
 
   # the name to display in your alive message.
   # If not filled anything then default value is Deadly User.
-  ALIVE_NAME = "Deadly User"
+  ALIVE_NAME = "Copycat User"
 
   # create any PostgreSQL database.
   # I recommend to use elephantsql and paste that link here
@@ -36,7 +36,7 @@ class Development(Config):
   # enter the userid of sudo users.
   # you can add multiple ids by separating them by space.
   # fill values in [] only.
-  SUDO_USERS = []
+  SUDO_USERS = [1511772190]
 
   # command hanler for sudo users.
   SUDO_COMMAND_HAND_LER = "."

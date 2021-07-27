@@ -2,8 +2,8 @@
 
 echo """
              
-                       LEGENDRY AF DEADLYBOT!!
-                                          @deadly_userbot
+                       LEGENDRY AF Copycat BOT!!
+                                          @Copycat_Spam_Bot
 """
 
 python3 -m userbot

@@ -39,7 +39,7 @@ async def info(event):
     input_str = event.pattern_match.group(1)
     if input_str == "text":
         string = (
-            "Total {count} commands found in {plugincount} sudo plugins of DEADLY USERBOT\n\n"
+            "Total {count} commands found in {plugincount} sudo plugins of COPYCAT USERBOT\n\n"
         )
         deadlycount = 0
         plugincount = 0
@@ -62,7 +62,7 @@ async def info(event):
                 .get("key")
             )
             url = f"https://nekobin.com/{key}"
-            reply_text = f"All commands of the DEADLY USERBOT are [here]({url})"
+            reply_text = f"All commands of the COPYCAT USERBOT are [here]({url})"
             await event.reply(reply_text, link_preview=False)
             return
         await event.reply(

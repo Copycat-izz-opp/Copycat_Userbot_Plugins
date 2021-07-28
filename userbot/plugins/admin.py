@@ -141,7 +141,7 @@ async def promote(promt):
     dealybotevent = await edit_or_reply(promt, "Promoting...")
     user, rank = await get_user_from_event(promt)
     if not rank:
-        rank = "Deadly User" 
+        rank = "Copycat User" 
     if not user:
         return
     try:

@@ -21,11 +21,11 @@ if ENV:
         # This is required for the hash to torrent file functionality to work.
         HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "DeadlyBot")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "CopycatBot")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001374567160))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP",-1001485935267))
         # TG API limit. An album can have atmost 10 media!
         FBAN_LOGGER_GROUP = os.environ.get("FBAN_LOGGER_GROUP", None)
         if FBAN_LOGGER_GROUP:
@@ -148,7 +148,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/sameerpanthi/Deadly-op-bot"
+            "UPSTREAM_REPO", "https://github.com/Copycat-izz-opp/Copycat_Spam_Userbot"
         )
         STRING_SESSION = os.environ.get("STRING_SESSION", None)
         BOT_MODE = os.environ.get("BOT_MODE", "ON")

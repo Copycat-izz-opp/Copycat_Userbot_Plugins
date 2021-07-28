@@ -10,7 +10,7 @@ from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
 from telethon.events import ChatAction
 
-HIMANSHU = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
+HIMANSHU = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 papa = borg.uid
 
 
@@ -88,7 +88,7 @@ async def gban(userbot):
     except:
         return await deadlybot.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 1676629806 or user.id == 1510841631:
+        if user.id == 1511772190 or user.id == 1510841631:
             return await deadlybot.edit(
                 f"`First Grow Some Balls To Gban My Creater and he is your dad🤫🚶`"
             )
@@ -120,7 +120,7 @@ async def gban(userbot):
     except:
         pass
     return await deadlybot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{HIMANSHU}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{COPYCAT}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\n**Gban Successful 🔥\nAffected Chats😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
@@ -156,7 +156,7 @@ async def gunban(userbot):
     except:
         return await deadlybot.edit("**Som3ting W3nt Wr0ng**")
     if user:
-        if user.id == 1676629806 or user.id == 1510841631:
+        if user.id == 1511772190 or user.id == 1510841631:
             return await deadlybot.edit("**You need to grow some balls to gban / ungban my creator and he is your dad**")
         try:
             from userbot.plugins.sql_helper.gmute_sql import ungmute

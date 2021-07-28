@@ -8,7 +8,7 @@ from deadlybot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot import ALIVE_NAME
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 
 deadlybot = bot.uid
 
@@ -304,7 +304,7 @@ EXCLUDE_FED = os.environ.get("EXCLUDE_FED", None)
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"Starting superfban By [{DEFAULTUSER}](tg://user?id={deadlybot}) 😈")
+    await event.edit(f"Starting superfban By [{DEFAULTUSER}](tg://user?id={copycatbot}) 😈")
     fedList = []
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
@@ -347,7 +347,7 @@ async def _(event):
             return
     except:
         if (
-            FBAN == "@sameer_795" 
+            FBAN == "@My_Love_Coming_Near" 
     
         ):
             await event.edit("Hey Nigga, You can't superfban your father😏")

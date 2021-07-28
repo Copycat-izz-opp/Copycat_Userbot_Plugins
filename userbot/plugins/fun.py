@@ -1,6 +1,6 @@
-# for deadly bot
-# ONLY # for deadlybot
-# EDITED BY - @SAMEER_795 (S AMEER )
+# for copycat bot
+# ONLY # for copycatbot
+# EDITED BY - @My_Love_Coming_Near (COPYCAT )
 # KANGERS STAY AWAY
 # JISNE KANG KIYA USKI MA CHOD DI JAYEGI
 # BHADWE KANG MT KR LENA ...

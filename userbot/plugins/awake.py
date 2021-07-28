@@ -1,6 +1,6 @@
-# for DeadlyBot
-# ONLY for DeadlyBot
-# EDITED BY - @SAMEER_795 (SAMEER )
+# for CopycatBot
+# ONLY for CopycatBot
+# EDITED BY - @My_Love_Coming_Near (Copycat )
 # KANGERS STAY AWAY
 # JISNE KANG KIYA USKI MA CHOD DI JAYEGI
 # BHADWE KANG MT KR LENA ...
@@ -29,9 +29,9 @@ async def reply_id(event):
     return reply_to_id
 
 
-DEFAULTUSER = ALIVE_NAME or "Deadly User"
+DEFAULTUSER = ALIVE_NAME or "Copycat User"
 DEADLY_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGENDRY_AF_DEADLYBOT"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGENDRY_AF_COPYCAT_BOT"
 
 USERID = bot.uid
 
@@ -98,8 +98,8 @@ async def amireallyalive(alive):
             f"┣•➳➠ `𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽:` `{version.__version__}` \n"
             f"┣•➳➠ `𝚅𝙴𝚁𝚂𝙸𝙾𝙽:` `{deadlyversion}`\n"
             f"┣•➳➠ `𝚂𝚄𝙳𝙾:` `{sudou}`\n"
-            f"┣•➳➠ `𝙲𝙷𝙰𝙽𝙽𝙴𝙻:` [ᴊᴏɪɴ](https://t.me/deadly_techy)\n"
-            f"┣•➳➠ `𝙶𝚁𝙾𝚄𝙿:` [ᴊᴏɪɴ](https://t.me/deadly_userbot)\n"
+            f"┣•➳➠ `𝙲𝙷𝙰𝙽𝙽𝙴𝙻:` [ᴊᴏɪɴ](https://t.me/Copycat_Spam)\n"
+            f"┣•➳➠ `𝙶𝚁𝙾𝚄𝙿:` [ᴊᴏɪɴ](https://t.me/Copycat_Spam_Bot)\n"
             f"┣•➳➠ `𝚄𝙿𝚃𝙸𝙼𝙴:`{uptime}\n`"
             f"┗━━━━━━━━━━━━━━━━━━━\n"
         )

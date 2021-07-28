@@ -20,7 +20,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 DEADLYPIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
-    else "https://telegra.ph/file/fbb41395fd0feab088922.jpg"
+    else "https://telegra.ph/file/5bb2ae9514d561c440879.jpg"
 )
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
@@ -30,10 +30,10 @@ opsameer = (
     if CUSTOM_PMPERMIT
     else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
 )
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly user"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝗖𝗼𝗽𝘆𝗰𝗮𝘁 𝗨𝘀𝗲𝗿"
 USER_BOT_WARN_ZERO = "hey nub nibba don't spam here .. oh u want to spam here ? Then I am going to block u nibba**\n__Now GTFO, my master is busy__"
 USER_BOT_NO_WARN = (
-    "⚠️ 𝐇𝐄𝐋𝐋𝐎, 𝐓𝐇𝐈𝐒 𝐈𝐒 𝐃𝐄𝐀𝐃𝐋𝐘 𝐁𝐎𝐓 𝐔𝐋𝐓𝐑𝐀 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘 𝐏𝐑𝐎𝐓𝐎𝐂𝐎𝐋 ⚠️\n"
+    "⚠️ 𝐇𝐄𝐋𝐋𝐎, 𝐓𝐇𝐈𝐒 𝐈𝐒 𝗖𝗼𝗽𝘆𝗰𝗮𝘁 𝐁𝐎𝐓 𝐔𝐋𝐓𝐑𝐀 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘 𝐏𝐑𝐎𝐓𝐎𝐂𝐎𝐋 ⚠️\n"
     f"\n{opsameer}\n\n"
     "To start a valid conversation\n\n🔸Register Your Request!🔹\n🔸Send `/start` To Register🔹\n🔸Hopefully u will get a reply🔹"
 )
@@ -204,7 +204,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     out_file,
                     force_document=True,
                     allow_cache=False,
-                    caption="[Deadly bot]Current Approved PMs",
+                    caption="[𝗖𝗼𝗽𝘆𝗰𝗮𝘁 𝗕𝗼𝘁]Current Approved PMs",
                     reply_to=event,
                 )
                 await event.delete()

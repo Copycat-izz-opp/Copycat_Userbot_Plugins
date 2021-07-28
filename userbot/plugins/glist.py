@@ -41,7 +41,7 @@ UNBAN_RIGHTS = ChatBannedRights(
     embed_links=None,
 )
 
-HIMANSHU = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+HIMANSHU = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 papa = borg.uid
 
 @bot.on(admin_cmd(pattern="listgban$"))

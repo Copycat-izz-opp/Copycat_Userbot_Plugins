@@ -7,12 +7,12 @@ from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocu
 
 from . import *
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "deadly User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 opsameer = deadlybot.uid
 
 PICS_STR = []
 deadly_mention = f"[{DEFAULTUSER}](tg://user?id={opsameer})"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "deadly User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 
 @bot.on(admin_cmd(pattern="logo ?(.*)"))
 @bot.on(sudo_cmd(pattern="logo ?(.*)", allow_sudo=True))
@@ -63,7 +63,7 @@ async def lg1(deadlyevent):
     await bot.send_file(
         deadlyevent.chat_id,
         file_name,
-        caption=f"**Made By :** {deadly_mention}",
+        caption=f"**Made By :** {Copycat_mention}",
     )
     await event.delete()
     try:

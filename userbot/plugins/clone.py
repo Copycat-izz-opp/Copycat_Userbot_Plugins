@@ -13,9 +13,9 @@ from userbot import ALIVE_NAME, BIO_MSG, CMD_HELP
 from deadlybot.utils import admin_cmd
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 
-DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "Legendry Af Deadly Bot"
+DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "Legendry Af Copycat Bot"
 BOTLOG_CHATID = Config.PRIVATE_GROUP_BOT_API_ID
 BOTLOG = True
 

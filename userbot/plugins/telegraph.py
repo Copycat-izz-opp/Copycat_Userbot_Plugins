@@ -7,9 +7,9 @@ from telegraph import Telegraph, exceptions, upload_file
 from . import *
 
 
-DEADLY_NAME = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
+DEADLY_NAME = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 
-opsameer = str(ALIVE_NAME) if ALIVE_NAME else "Deadly Bot"
+opsameer = str(ALIVE_NAME) if ALIVE_NAME else "Copycat Bot"
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)
@@ -54,7 +54,7 @@ async def _(event):
                 os.remove(downloaded_file_name)
                 await edit_or_reply(event, 
                    "✓ **File uploaded to [telegraph](https://telegra.ph{})** \n✓ **Time Taken :-** `{}` secs \n✓ **By :- {}**".format(
-                        media_urls[0], (ms + ms_two), DEADLY_NAME, opsameer
+                        media_urls[0], (ms + ms_two), Copycat_NAME, opsameer
                     ),
                     link_preview=True,
                 )
@@ -83,7 +83,7 @@ async def _(event):
             ms = (end - start).seconds
             hellboy = f"https://telegra.ph/{response['path']}"
             await edit_or_reply(event, 
-                  f"✓ **Pasted to** [telegraph]({opsameer}) \n✓ **Time Taken :-** `{ms}` secs\n✓** By :**  {DEADLY_NAME}", link_preview=True)
+                  f"✓ **Pasted to** [telegraph]({opcopycat}) \n✓ **Time Taken :-** `{ms}` secs\n✓** By :**  {DEADLY_NAME}", link_preview=True)
     else:
         await eod(event, 
             "Reply to a message to get a permanent telegra.ph link."

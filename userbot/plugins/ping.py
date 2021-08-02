@@ -1,15 +1,12 @@
-from userbot import bot 
+import asyncio
 from datetime import datetime
-import time
-from ..Config import Config
+from userbot import StartTime
+from .. import ALIVE_NAME, CMD_HELP
+from ..utils import admin_cmd, edit_or_reply, sudo_cmd
+from ..cmdhelp import CmdHelp
 
-## NO NEED TO TOUCH THIS ##
-ID = bot.uid if Config.OWNER_ID == 0 else Config.OWNER_ID
-USER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
-### End ##
-## mention ##
-mentionuser = f"[{USER}](tg://user?id={ID})"
-## End ##
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
+opsameer = borg.uid
 
 @bot.on(admin_cmd(pattern="ping$"))
 @bot.on(sudo_cmd(pattern="ping$", allow_sudo=True))
@@ -32,7 +29,7 @@ async def _(event):
 ╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
 ╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯\n\n
    MY MS → `{ms}`\n
-    🇲 𝚈  🇲 𝗔Տᴛ𝐸ℝ  → {mentionuser}
+    🇲 𝚈  🇲 𝗔Տᴛ𝐸ℝ  → {DEFAULTUSER}
     """)
 
 # By @Alone_loverboy 

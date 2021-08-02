@@ -4,7 +4,6 @@ import time
 from ..Config import Config
 
 ## NO NEED TO TOUCH THIS ##
-ALIVE_NAME = Config.ALIVE_NAME
 ID = bot.uid if Config.OWNER_ID == 0 else Config.OWNER_ID
 USER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 ### End ##

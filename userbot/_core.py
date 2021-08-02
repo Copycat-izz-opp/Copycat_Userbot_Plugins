@@ -13,7 +13,7 @@ DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 deadly_logo =  "./OPSAMEER/DeadlyBot_logo.jpg"
 opsameer = deadlybot.uid
-deadly = f"[{DEFAULTUSER}](tg://user?id={opcopycat})"
+deadly = f"[{DEFAULTUSER}](tg://user?id={opsameer})"
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
 @bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = deadly_logo
     input_str = event.pattern_match.group(1)
-    omk = f"**𝙿𝙻𝚄𝙶𝙸𝙽 𝙽𝙰𝙼𝙴 ➳➠** `{input_str}`\n**𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 ➳➠** {Copycat}\n\n⚜️ **[𝚃𝙴𝙰𝙼 Copycat](t.me/Copycat_Spam_Bot)** ⚜️"
+    omk = f"**𝙿𝙻𝚄𝙶𝙸𝙽 𝙽𝙰𝙼𝙴 ➳➠** `{input_str}`\n**𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 ➳➠** {opsameer}\n\n⚜️ **[𝚃𝙴𝙰𝙼 Copycat](t.me/Copycat_Spam_Bot)** ⚜️"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         lauda = await event.client.send_file(
@@ -71,7 +71,7 @@ async def install(event):
                             a = "__Installing...__"
                             b = 1
                         await event.edit(a)
-                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {Copycat}\n\n{string}\n\n        ⚡ **[LEGENDARY AF CopycatBot](t.me/Copycat_Spam_Bot)** ⚡", link_preview=False)
+                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {opsameer}\n\n{string}\n\n        ⚡ **[LEGENDARY AF CopycatBot](t.me/Copycat_Spam_Bot)** ⚡", link_preview=False)
                 return await event.edit(f"Installed module `{os.path.basename(downloaded_file_name)}`")
             else:
                 os.remove(downloaded_file_name)

@@ -31,7 +31,7 @@ pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/
 pm_caption += "➠ ՏᑌᑭᑭOᖇT ᑕᕼᑎᑎᒪ ➣ [𝐉𝐎𝐈𝐍](https://t.me/Copycat_Spam)\n"
 pm_caption += "➠ ՏᑌᑭᑭOᖇT ᘜᖇᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/Copycat_Spam_Bot)\n"
 pm_caption += "➠ ᑕᖇᗴᗩTOᖇ ➣ [😈Copycat😈](t.me/My_Love_Coming_Near)\n\n" 
-pm_caption += "[😈ᗪᗴᑭᒪOY ᑕOᑭYᑕᗩT Տᑭᗩᗰ ᗷOT😈](https://github.com/Copycat-izz-opp/CopyCat_Spam_Bot/blob/master/README.md)"
+pm_caption += "[😈ᗪᗴᑭᒪOY ᑕOᑭYᑕᗩT Տᑭᗩᗰ ᗷOT😈](https://github.com/Copycat-izz-opp/copycat_spam_userbot)"
                                                      
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))

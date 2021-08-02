@@ -9,7 +9,7 @@ from userbot import ALIVE_NAME, deadlyversion
 from deadlybot.utils import admin_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "CopycatBot User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Copycat User"
 
 deadlybot = bot.uid
 

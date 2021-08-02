@@ -54,7 +54,7 @@ for name in files:
 import userbot._core
 
 async def startupmessage():
-    await bot(functions.channels.JoinChannelRequest(channel="@Copycat_Spam_Bot"))
+    await bot(functions.channels.JoinChannelRequest(channel="@copycat_userbot"))
     try:
         if Config.PRIVATE_GROUP_BOT_API_ID != 0:
             await bot.send_message(
